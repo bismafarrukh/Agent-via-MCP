@@ -26,7 +26,7 @@ app_api = FastAPI(title="University MCP Chatbot", lifespan=lifespan)
 # CORS for React frontend
 app_api.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # change if needed
+    allow_origins=["http://localhost:5173"],  # change if needed
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -44,7 +44,7 @@ async def ask_question(req: QuestionRequest):
         return {"answer": "Agent is starting, try again in a few seconds."}
 
     answer = await finder_agent(
-        request=f"Read the file data/university_prospectus.pdf and answer: {req.question}",
+        request=f"Read the file data/uetProspectus.pdf and answer: {req.question}",
         app_ctx=agent_app_context,
     )
     return {"answer": answer}

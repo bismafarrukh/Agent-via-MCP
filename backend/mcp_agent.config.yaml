@@ -69,6 +69,10 @@ openai:
 
 anthropic:
   default_model: claude-sonnet-4-0
+
+llama3:
+  default_model: meta-llama/Llama-3-7b-chat-hf   # or 13b, 70b, etc.
+  api_key: "${LLAMA3_API_KEY}"                   # recommended: use env variable
 # google:
 #   default_model: "gemini-1.5-pro"
 

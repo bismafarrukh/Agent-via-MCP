@@ -35,7 +35,7 @@ export default function About() {
             textColor: "text-green-700"
         },
         {
-            name: "Gemma 3",
+            name: "LLama",
             description: "Lightweight yet powerful language model for NLP tasks",
             icon: <Brain className="w-6 h-6" />,
             color: "bg-purple-500",
