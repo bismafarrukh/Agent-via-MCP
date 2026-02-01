@@ -32,6 +32,8 @@ mcp/
 - API keys for LLM providers (Groq, OpenAI, or Anthropic)
 
 ---
+![architecture diagram](frontend/src/assets/image.png)
+![Sequence diagram](frontend/src/assets/image-1.png)
 
 ## Backend Setup
 
