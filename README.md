@@ -346,19 +346,6 @@ npm run preview
 
 ---
 
-## Next Steps
-
-1. ✅ Set up backend with API keys
-2. ✅ Set up frontend dependencies
-3. ✅ Add PDF documents to `backend/data/`
-4. ✅ Run both servers
-5. ✅ Test the chatbot
-6. 📝 Customize system prompts in `main.py`
-7. 🎨 Customize UI in React components
-8. 🚀 Deploy to production
-
----
-
 ## Support & Resources
 
 - **MCP-Agent Docs:** https://docs.mcp-agent.com/
